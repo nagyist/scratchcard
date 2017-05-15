@@ -12,7 +12,7 @@ export default class Renderer {
     constructor(config){
         const {width, height} = config.size;
         this.app = new Application(width || 512, height || 512, config.options);
-        document.body.appendChild(this.app.view);
+        document.querySelector(config.container).appendChild(this.app.view);
         this.stages = {};
         this.resources = [];
         this.elapsedTime = Date.now();

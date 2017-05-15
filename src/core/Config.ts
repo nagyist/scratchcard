@@ -3,6 +3,7 @@ export default class Config {
     slotNumber: [number, number];
     marginSize: number;
     outerMarginSize: number;
+    container: string;
     options?: object;
     size: {width:number, height: number};
     positions: [number,number][];
@@ -11,6 +12,7 @@ export default class Config {
         this.marginSize = config.marginSize;
         this.outerMarginSize = config.outerMarginSize;
         this.slotNumber = config.slotNumber;
+        this.container = config.container;
         this.options = config.options;
         this.getSize();
         this.getPositions();

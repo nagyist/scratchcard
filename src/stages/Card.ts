@@ -62,7 +62,7 @@ export default class Card extends Stage {
         const {positions, slotSize, size} = this.config;
         //Mask sprite
         let bg = new Graphics();
-        bg.beginFill(0xfff000)
+        bg.beginFill(0x607d8b)
         bg.drawRect(0, 0, size.width, size.height)
         bg.endFill();
         this.addChild(bg);
