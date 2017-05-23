@@ -3,12 +3,18 @@ Scratchcard test with pixi.js and Typescript
 
 ## install
 
-'npm install'
+```sh
+npm install
+```
 
 ## run
 
-'npm start'
+```sh
+npm start
+```
 
 ## build
 
-'npm run build'
+```sh
+npm run build
+```
