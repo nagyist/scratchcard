@@ -18,7 +18,7 @@ export default class Card extends Stage {
         this.game = game;
         this.config = config;
         this.resources = {
-            cover: 'cover.png'
+            cover: 'assets/cover.png'
         };
 
         // Set size from config file

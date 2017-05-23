@@ -57,7 +57,7 @@ export default class InverseDrawingMask {
 		onMove(e:any): void {
 				if (this.isDrawing) {
 						let pos = e.data.getLocalPosition(this.stage);
-						let particle = PIXI.Sprite.fromImage('scratch.png');
+						let particle = PIXI.Sprite.fromImage('assets/scratch.png');
 						particle.x = pos.x;
 						particle.y = pos.y;
 						particle.rotation = Math.random() * 10;
